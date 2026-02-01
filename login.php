@@ -27,6 +27,19 @@
             alert('Password must be at least 5 characters long!');
             return false;
         }
+        // check regular expression for username (alphabet only)
+        const usernameRegex = /^[a-zA-Z]+$/;
+        if(!usernameRegex.test(username)){
+            alert('Username must be alphabet only!');
+            return false;
+        }
+        
+        //password must be exact 5 digits
+        const passwordRegex = /^\d{5}$/;
+        if(!passwordRegex.test(password)){
+            alert('Password must be exactly 5 digits!');
+            return false;
+        }
         return true;
     }   
 </script>
