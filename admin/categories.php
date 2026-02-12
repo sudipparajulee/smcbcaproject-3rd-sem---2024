@@ -4,7 +4,7 @@
         <hr class="h-1 bg-red-600">
     </div>
     <div class="flex justify-end py-4">
-        <a href="" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Category</a>
+        <a href="addcategory.php" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Category</a>
     </div>
     <table class="w-full">
         <tr>
